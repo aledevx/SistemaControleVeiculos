@@ -1,4 +1,5 @@
 using Microsoft.EntityFrameworkCore;
+using SistemaControleVeiculos.Models;
 
 namespace SistemaControleVeiculos.Data
 {
@@ -6,7 +7,9 @@ namespace SistemaControleVeiculos.Data
     {
         public Contexto(DbContextOptions options) : base(options)
         {
-            
         }
+
+        public DbSet<Veiculo> Veiculos { get; set; }
+        public DbSet<Viagem> Viagens { get; set; }
     }
 }
