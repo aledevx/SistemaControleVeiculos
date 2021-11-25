@@ -1,0 +1,6 @@
+- Cadastrar motorista
+- A partir do motorista, disponibilizar a opção de criar uma nova viagem ja trazendo o motorista pré-selecionado
+----------------------
+- Verificar datas e atualizar status do veiculo toda vez que logar/acessar index dos veiculos/viagens
+----------------------
+- Verificar as viagens agendadas daquele veiculo para bloquear caso tente inserir uma viagem nova onde a data entra em conflito com as datas das outras viagens

@@ -1,3 +1,5 @@
+using System.Collections.Generic;
+
 namespace SistemaControleVeiculos.Models
 {
     public class Veiculo
@@ -6,5 +8,6 @@ namespace SistemaControleVeiculos.Models
         public string Placa { get; set; }
         public string Modelo { get; set; }
         public string Status { get; set; }
+        public ICollection<Viagem> Viagens { get; set; }
     }
 }

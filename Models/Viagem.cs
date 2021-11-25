@@ -11,7 +11,7 @@ namespace SistemaControleVeiculos.Models
         public string Setor { get; set; }
         public string NumProcesso { get; set; }
         public string Observacao { get; set; }
-        public DateTime DataSaida { get; set; }
-        public DateTime DataRetorno { get; set; }
+        public DateTime? DataSaida { get; set; }
+        public DateTime? DataRetorno { get; set; }
     }
 }
